@@ -4,7 +4,8 @@ go 1.13
 
 require (
 	github.com/BurntSushi/toml v0.3.1
-	github.com/Microsoft/hcsshim v0.8.9 // indirect
+	github.com/Microsoft/go-winio v0.4.15-0.20190919025122-fc70bd9a86b5
+	github.com/Microsoft/hcsshim v0.8.9
 	github.com/Microsoft/hcsshim/test v0.0.0-20200826032352-301c83a30e7c // indirect
 	github.com/containerd/cgroups v0.0.0-20200710171044-318312a37340 // indirect
 	github.com/containerd/containerd v1.4.1-0.20201110220052-687fcd73ec53
@@ -12,7 +13,6 @@ require (
 	github.com/containerd/fifo v0.0.0-20201026212402-0724c46b320c // indirect
 	github.com/containerd/go-cni v1.0.1
 	github.com/containerd/go-runc v0.0.0-20200220073739-7016d3ce2328
-	github.com/containerd/stargz-snapshotter/estargz v0.0.0-00010101000000-000000000000
 	github.com/containerd/ttrpc v1.0.1 // indirect
 	github.com/containerd/typeurl v1.0.1 // indirect
 	github.com/containernetworking/plugins v0.8.7 // indirect
